@@ -5,7 +5,7 @@ import pyaes
 file_name = "teste.txt"
 file = open(file_name, "rb")
 file_data = file.read()
-file.close()
+file.close() 
 
 ## remover o arquivo
 os.remove(file_name)
